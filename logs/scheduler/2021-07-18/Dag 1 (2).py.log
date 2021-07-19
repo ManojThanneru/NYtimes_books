@@ -1,0 +1,143 @@
+[2021-07-18 19:53:13,339] {scheduler_job.py:181} INFO - Started process (PID=1554) to work on /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:53:13,341] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/Dag 1 (2).py for tasks to queue
+[2021-07-18 19:53:13,342] {logging_mixin.py:104} INFO - [2021-07-18 19:53:13,342] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:53:13,606] {logging_mixin.py:104} INFO - [2021-07-18 19:53:13,601] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/Dag 1 (2).py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Dag 1 (2).py", line 10, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator'
+[2021-07-18 19:53:13,613] {scheduler_job.py:644} WARNING - No viable dags retrieved from /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:53:13,697] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/Dag 1 (2).py took 0.362 seconds
+[2021-07-18 19:53:43,898] {scheduler_job.py:181} INFO - Started process (PID=1607) to work on /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:53:43,900] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/Dag 1 (2).py for tasks to queue
+[2021-07-18 19:53:43,901] {logging_mixin.py:104} INFO - [2021-07-18 19:53:43,901] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:53:43,935] {logging_mixin.py:104} INFO - [2021-07-18 19:53:43,929] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/Dag 1 (2).py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Dag 1 (2).py", line 10, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator'
+[2021-07-18 19:53:43,943] {scheduler_job.py:644} WARNING - No viable dags retrieved from /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:53:44,010] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/Dag 1 (2).py took 0.116 seconds
+[2021-07-18 19:54:14,491] {scheduler_job.py:181} INFO - Started process (PID=1659) to work on /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:54:14,492] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/Dag 1 (2).py for tasks to queue
+[2021-07-18 19:54:14,494] {logging_mixin.py:104} INFO - [2021-07-18 19:54:14,494] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:54:14,527] {logging_mixin.py:104} INFO - [2021-07-18 19:54:14,521] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/Dag 1 (2).py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Dag 1 (2).py", line 10, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator'
+[2021-07-18 19:54:14,535] {scheduler_job.py:644} WARNING - No viable dags retrieved from /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:54:15,030] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/Dag 1 (2).py took 0.545 seconds
+[2021-07-18 19:54:45,866] {scheduler_job.py:181} INFO - Started process (PID=1723) to work on /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:54:45,868] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/Dag 1 (2).py for tasks to queue
+[2021-07-18 19:54:45,870] {logging_mixin.py:104} INFO - [2021-07-18 19:54:45,870] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:54:45,901] {logging_mixin.py:104} INFO - [2021-07-18 19:54:45,896] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/Dag 1 (2).py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Dag 1 (2).py", line 10, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator'
+[2021-07-18 19:54:45,907] {scheduler_job.py:644} WARNING - No viable dags retrieved from /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:54:46,121] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/Dag 1 (2).py took 0.260 seconds
+[2021-07-18 19:55:16,550] {scheduler_job.py:181} INFO - Started process (PID=1776) to work on /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:55:16,552] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/Dag 1 (2).py for tasks to queue
+[2021-07-18 19:55:16,553] {logging_mixin.py:104} INFO - [2021-07-18 19:55:16,553] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:55:16,602] {logging_mixin.py:104} INFO - [2021-07-18 19:55:16,597] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/Dag 1 (2).py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Dag 1 (2).py", line 10, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator'
+[2021-07-18 19:55:16,610] {scheduler_job.py:644} WARNING - No viable dags retrieved from /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:55:16,832] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/Dag 1 (2).py took 0.286 seconds
+[2021-07-18 19:55:46,945] {scheduler_job.py:181} INFO - Started process (PID=1829) to work on /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:55:46,947] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/Dag 1 (2).py for tasks to queue
+[2021-07-18 19:55:46,949] {logging_mixin.py:104} INFO - [2021-07-18 19:55:46,948] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:55:46,983] {logging_mixin.py:104} INFO - [2021-07-18 19:55:46,977] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/Dag 1 (2).py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Dag 1 (2).py", line 10, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator'
+[2021-07-18 19:55:47,002] {scheduler_job.py:644} WARNING - No viable dags retrieved from /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:55:47,128] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/Dag 1 (2).py took 0.189 seconds
+[2021-07-18 19:56:17,466] {scheduler_job.py:181} INFO - Started process (PID=1894) to work on /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:56:17,468] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/Dag 1 (2).py for tasks to queue
+[2021-07-18 19:56:17,469] {logging_mixin.py:104} INFO - [2021-07-18 19:56:17,469] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:56:17,511] {logging_mixin.py:104} INFO - [2021-07-18 19:56:17,505] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/Dag 1 (2).py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Dag 1 (2).py", line 10, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator'
+[2021-07-18 19:56:17,520] {scheduler_job.py:644} WARNING - No viable dags retrieved from /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:56:17,563] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/Dag 1 (2).py took 0.104 seconds
+[2021-07-18 19:56:47,781] {scheduler_job.py:181} INFO - Started process (PID=1948) to work on /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:56:47,783] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/Dag 1 (2).py for tasks to queue
+[2021-07-18 19:56:47,785] {logging_mixin.py:104} INFO - [2021-07-18 19:56:47,785] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:56:47,814] {logging_mixin.py:104} INFO - [2021-07-18 19:56:47,809] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/Dag 1 (2).py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Dag 1 (2).py", line 10, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator'
+[2021-07-18 19:56:47,821] {scheduler_job.py:644} WARNING - No viable dags retrieved from /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:56:47,943] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/Dag 1 (2).py took 0.167 seconds
+[2021-07-18 19:57:18,039] {scheduler_job.py:181} INFO - Started process (PID=2001) to work on /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:57:18,042] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/Dag 1 (2).py for tasks to queue
+[2021-07-18 19:57:18,043] {logging_mixin.py:104} INFO - [2021-07-18 19:57:18,043] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:57:18,097] {logging_mixin.py:104} INFO - [2021-07-18 19:57:18,090] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/Dag 1 (2).py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Dag 1 (2).py", line 10, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator'
+[2021-07-18 19:57:18,105] {scheduler_job.py:644} WARNING - No viable dags retrieved from /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:57:18,169] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/Dag 1 (2).py took 0.134 seconds
+[2021-07-18 19:58:32,047] {scheduler_job.py:181} INFO - Started process (PID=2162) to work on /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:58:32,186] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/Dag 1 (2).py for tasks to queue
+[2021-07-18 19:58:32,187] {logging_mixin.py:104} INFO - [2021-07-18 19:58:32,187] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:58:32,386] {logging_mixin.py:104} INFO - [2021-07-18 19:58:32,385] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/Dag 1 (2).py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Dag 1 (2).py", line 33
+    bash_command='C:\Users\manoj thanneru\airflow\dags\dag.py',
+                ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2021-07-18 19:58:32,475] {scheduler_job.py:644} WARNING - No viable dags retrieved from /opt/airflow/dags/Dag 1 (2).py
+[2021-07-18 19:58:32,670] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/Dag 1 (2).py took 0.639 seconds
